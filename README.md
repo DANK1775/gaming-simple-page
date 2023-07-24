@@ -1,2 +1,2 @@
-# gaming-simple-page
+# simple-responsive-page
 a simple web page 
