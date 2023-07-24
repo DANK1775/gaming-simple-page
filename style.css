@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+/* body */
+body {
+    background-color: #000000;
+background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%235d4189' fill-opacity='0.1'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    place-items: center;
+}
+ /* nav */
+.itemsss {
+    justify-content: flex-end;
+}
+
+.itemsss li:hover {
+    background-color: lime;
+    transition: 0.7s;
+    border-radius: 5px;
+}
+
+/* carrusel y texto */
+
+.carousel {
+    margin-top: 1.5rem;
+    width: 65%;
+}
+.carruselinfo {
+    margin-top: 2rem;
+}
+.carruselinfo h3 {
+    color: lime;
+}
+.carruselinfo p {
+    color: aliceblue;
+}
+.carruselinfo ul {
+    color: aliceblue;
+}
+
+
+header {
+    margin-top: 1rem;
+}
+
+/* sobre los 3 juegos */
+
+.infogeneral h1 {
+    color: lime;
+    margin: 1rem 0 1rem 0.5rem;
+}
+
+.infogeneral h3 {
+    color: limegreen;
+    margin: 1rem;
+}
+
+.infogeneral p {
+    color: aliceblue;
+}
+
+.pmain {
+    margin-bottom: 4rem;
+}
+
+/* trailer */
+.infogeneral span {
+    color: red;
+    text-decoration: underline;
+}
+.boton0, .boton1, .boton2 {
+    font-weight: bold;
+    color: black;
+    background-color: lime;
+    margin-bottom: 4rem;
+}
+
+iframe {
+    margin-bottom: 4rem;
+}
+
+.boton:hover {
+    color: azure;
+    background-color: limegreen;
+}
+
+/* clases de hide and show */
+
+.ocultar {
+    display: none;
+}
+
+@media (width >= 768px) {
+    /* carrusel */
+    header {
+        display: flex;
+    }
+/* carrusel txt */
+    .carruselinfo {
+        margin-left: 6rem;
+    }
+}
+
+@media (width <= 768px) {
+    /* carrusel */
+    .carousel {
+        width: 100%;
+        margin-left: 0.5rem;
+    }
+
+    .yt {
+        width: 365px;
+        height: 280px;
+        margin-left: 1rem;
+    }
+}
+
